@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchActivity"
+    android:weightSum="1"
+    android:background="@drawable/background_shibuya"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/goga_logo"
+            android:layout_margin="10dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/login_email_field"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#FFFFFF"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:elevation="@dimen/activity_vertical_margin"
+            android:textColor="#333"
+            android:hint="Enter your email address"
+            android:text="yumashish@gmail.com" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/login_pass_field"
+            android:layout_below="@+id/login_email_field"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:elevation="@dimen/activity_vertical_margin"
+            android:textColor="#333"
+            android:layout_marginTop="15dp"
+            android:text="yumashish" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_below="@+id/login_pass_field">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/fb_login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:elevation="10dp"
+                android:layout_weight="0.5"/>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/fb_login_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:elevation="10dp"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/login_launch_button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="0dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login as Guest"
+            android:id="@+id/login_guest_button"
+            android:layout_above="@+id/login_launch_button"
+            android:layout_alignParentRight="true"
+            android:elevation="@dimen/activity_vertical_margin"
+            android:layout_alignParentEnd="false" />
+    </RelativeLayout>
+</LinearLayout>

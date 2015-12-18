@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="info_card_maps_api">
+        <item>@array/info_card_maps_api_0</item>
+        <item>@array/info_card_maps_api_1</item>
+        <item>@array/info_card_maps_api_2</item>
+    </array>
+
+    <string-array name="info_card_maps_api_0">
+        <item>What is the Maps API?</item>
+        <item>@string/icma0</item>
+        <item></item>
+    </string-array>
+
+    <string name="icma0">
+        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
+        \n
+        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
+        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
+        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+    </string>
+
+    <string-array name="info_card_maps_api_1">
+        <item>The Maps API Part II</item>
+        <item>@string/icma1</item>
+        <item></item>
+    </string-array>
+
+    <string name="icma1">
+        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
+        \n
+        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
+        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
+        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+    </string>
+
+    <string-array name="info_card_maps_api_2">
+        <item>The Maps API Part III</item>
+        <item>@string/icma2</item>
+        <item></item>
+    </string-array>
+
+    <string name="icma2">
+        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
+        \n
+        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
+        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
+        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+    </string>
+
+    <array name="info_card_places_api">
+        <item>@array/info_card_places_api_0</item>
+        <item>@array/info_card_places_api_1</item>
+    </array>
+
+    <string-array name="info_card_places_api_0">
+        <item>What is the Places API?</item>
+        <item>@string/icpa2</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="info_card_places_api_1">
+        <item>Places API Part II</item>
+        <item>@string/icpa2</item>
+        <item></item>
+    </string-array>
+
+    <string name="icpa2">
+        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
+        \n
+        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
+        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
+        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+    </string>
+
+    <array name="info_card_directions_api">
+        <item>@array/info_card_directions_api_0</item>
+        <item>@array/info_card_directions_api_1</item>
+    </array>
+
+    <string-array name="info_card_directions_api_0">
+        <item>What is the Directions API?</item>
+        <item>@string/icma0</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="info_card_directions_api_1">
+        <item>Directions API Part II</item>
+        <item>@string/icma1</item>
+        <item></item>
+    </string-array>
+
+</resources>

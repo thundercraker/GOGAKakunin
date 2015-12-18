@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GOGA Kakunin</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="action_new_message">goga.huddle.intent.action.NEWMESSAGE</string>
+    <string name="tap_card_tag">TAP_CARD_TAG</string>
+    <string name="random_marker_title">Random Marker</string>
+    <string name="fsmm_text_label">Please put $ markers</string>
+    <string name="fsmm_text_label_or_greater">Please put at least $ markers</string>
+    <string name="fsmm_text_label_done">You have placed enough markers</string>
+    <string name="fsmm_start">Start</string>
+    <string name="fsmm_end">Destination</string>
+
+    <string name="lorem_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+</resources>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipper_main"
+    android:animateLayoutChanges="true"
+    android:background="#99222222">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/_dummy0"
+        android:tag="@string/tap_card_tag"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_marginTop="0dp"
+        android:background="#0000FF"
+        android:visibility="gone"
+        android:rotation="15" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/_dummy1"
+        android:tag="@string/tap_card_tag"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00FF00"
+        android:visibility="gone"
+        android:rotation="-10" />
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/_dummy2"
+        android:tag="@string/tap_card_tag"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF0000"
+        android:visibility="gone"
+        android:rotation="10"/>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:id="@+id/dragTextView"
+        android:tag="@string/tap_card_tag"
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:rotation="0" />
+
+</RelativeLayout>

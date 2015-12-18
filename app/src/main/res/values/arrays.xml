@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_items">
+        <!-- 0 -->
+        <item>!Maps API</item>
+        <item>Map Types, Road, Satellite, Terrain, Hybrid</item>
+        <item>Location, Go to my location, Enable My Location</item>
+        <item>*AutoComplete</item>
+        <item>Markers, Add Random Markers, Customized Markers, Map Clustering, Clear All</item>
+        <!-- 5 -->
+        <item>Shapes, Polylines, Polyshapes, Clear All</item>
+        <item>Ground Overlays</item>
+        <item>Tile Overlays, Heatmaps, Clear All</item>
+        <item>!Places API</item>
+        <item>Places By Type, Clothing, Electronics, ATMs</item>
+        <!-- 10 -->
+        <item>*Places By Keyword</item>
+        <item>Places Ratings, Restaurants By Stars, Restaurants By Stars (Premium)</item>
+        <item>!Directions API</item>
+        <item>*Set transit mode</item>
+        <item>Get directions, Normal, With Waypoints</item>
+        <!-- 15 -->
+    </string-array>
+</resources>

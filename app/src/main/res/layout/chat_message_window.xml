@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    android:background="#DD111111">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/chat_window_messages"
+        android:layout_weight="0.9"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:weightSum="1"
+        android:minHeight="60dp">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textSize="10pt"
+            android:id="@+id/chat_window_message_box"
+            android:editable="true"
+            android:layout_weight="0.8"
+            android:focusable="true"
+            android:enabled="true"
+            android:inputType="text|textMultiLine"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/chat_window_send"
+            android:layout_weight="0.2"
+            android:src="@drawable/chatsend" />
+
+    </LinearLayout>
+
+</LinearLayout>
