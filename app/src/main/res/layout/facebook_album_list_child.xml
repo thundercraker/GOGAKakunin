@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#333"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/falc_main_image"
+        android:minHeight="160dp"
+        android:layout_gravity="center_horizontal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/falc_like_image"
+            android:src="@drawable/light_like"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/colorFBAlbumChildText"
+            android:text="Name name, Name name and 108 others"
+            android:id="@+id/falc_like_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/falc_like_image"
+            android:layout_toEndOf="@+id/falc_like_image" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/falc_from_image"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/light_camera"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From Name Name"
+            android:id="@+id/falc_from_detail"
+            android:textColor="@color/colorFBAlbumChildText"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/falc_from_image"
+            android:layout_toEndOf="@+id/falc_from_image"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/falc_date_image"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/light_time"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On 00/00/0000 00:00"
+            android:textSize="14sp"
+            android:id="@+id/falc_date_detail"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/falc_date_image"
+            android:layout_toEndOf="@+id/falc_date_image"
+            android:textColor="@color/colorFBAlbumChildText"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#33ffffff"></LinearLayout>
+</LinearLayout>

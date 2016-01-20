@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Sign In with Facebook"
+    android:background="#222"
+    android:textStyle="bold"
+    android:elevation="10dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    android:id="@+id/dtv_sign_in"/>

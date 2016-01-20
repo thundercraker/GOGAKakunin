@@ -1,69 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:background="#333"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_shibuya">
+    android:gravity="bottom"
+    sothree:umanoShadowHeight="4dp"
+    sothree:umanoPanelHeight="0dp"
+    sothree:umanoOverlay="true"
+    android:id="@+id/bottom_drawer">
 
-    <ViewSwitcher
-        android:layout_alignParentTop="true"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/viewFlipper"
-        android:layout_gravity="center_horizontal" >
+        android:layout_height="match_parent">
 
-        <fragment
+        <ViewSwitcher
+            android:layout_alignParentTop="true"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:name="com.example.yumashish.gogamarkethuddle.CustomMapFragment"
-            android:id="@+id/customer_home_map_fragment"
-            android:layout_gravity="center_horizontal">
-        </fragment>
+            android:id="@+id/viewFlipper"
+            android:layout_gravity="center_horizontal" >
 
-        <LinearLayout
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="com.yumashish.kakunin.GUI.Maps.CustomMapFragment"
+                android:id="@+id/customer_home_map_fragment"
+                android:layout_gravity="center_horizontal">
+            </fragment>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/customer_home_hidden_layer"
+                android:background="#DD111111">
+            </LinearLayout>
+        </ViewSwitcher>
+
+        <RelativeLayout
+            android:id="@+id/home_foreground_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:id="@+id/customer_home_hidden_layer"
-            android:background="#DD111111">
-        </LinearLayout>
-    </ViewSwitcher>
+            android:background="#DD000000"
+            android:visibility="gone">
 
-    <RelativeLayout
-        android:id="@+id/home_foreground_1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone">
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                android:id="@+id/home_autocomplete"
+                android:layout_gravity="center_horizontal"
+                android:singleLine="true"
+                android:hint="@string/google_autocompleteview_hint"/>
 
-        <AutoCompleteTextView
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:elevation="10dp"
-            android:id="@+id/home_autocomplete"
-            android:layout_gravity="center_horizontal"
-            android:singleLine="true"
-            android:background="#FFFFFF"
-            android:textColor="#333333"/>
+            android:layout_height="match_parent"
+            android:id="@+id/home_foreground_0"
+            android:background="#DD000000"
+            android:visibility="gone">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_foreground_info"
+            android:background="#AA000000"
+            android:visibility="gone">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_master_foreground"
+            android:visibility="visible">
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_alignParentTop="true"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/home_foreground_0"
-        android:background="#00000000"
-        android:visibility="gone">
+        android:gravity="center|top"
+        android:id="@+id/bottom_drawer_panel">
 
-    </RelativeLayout>
+    </LinearLayout>
 
-    <RelativeLayout
-        android:layout_alignParentTop="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/home_foreground_info"
-        android:background="#AA000000"
-        android:visibility="gone">
-
-    </RelativeLayout>
-
-</RelativeLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

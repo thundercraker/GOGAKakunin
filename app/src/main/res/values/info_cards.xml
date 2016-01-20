@@ -3,7 +3,6 @@
     <array name="info_card_maps_api">
         <item>@array/info_card_maps_api_0</item>
         <item>@array/info_card_maps_api_1</item>
-        <item>@array/info_card_maps_api_2</item>
     </array>
 
     <string-array name="info_card_maps_api_0">
@@ -13,11 +12,14 @@
     </string-array>
 
     <string name="icma0">
-        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
-        \n
-        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
-        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
-        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+        The Google maps API is a service provided by Google with which developers can integrate functionalities based on location and visualizing locational data on a Map. Applications that
+        use the Google maps API also often use other location based Google APIs such as Google Places, Directions etc which can also be found in this application. Google Maps has 4 map types,
+        all of which you can access through the `Map Types` menu item.
+        \n\n
+        \t\t&#8226;\t Road: the simplest and most legible `in the context of reading minute map details` \n
+        \t\t&#8226;\t Satellite: A map formed with photos taken from Google Earth \n
+        \t\t&#8226;\t Terrain: A map of the underlying terrain elevations \n
+        \t\t&#8226;\t Hybrid: The satellite map overlaid with roads \n
     </string>
 
     <string-array name="info_card_maps_api_1">
@@ -27,50 +29,38 @@
     </string-array>
 
     <string name="icma1">
-        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
-        \n
-        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
-        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
-        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
-    </string>
-
-    <string-array name="info_card_maps_api_2">
-        <item>The Maps API Part III</item>
-        <item>@string/icma2</item>
-        <item></item>
-    </string-array>
-
-    <string name="icma2">
-        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
-        \n
-        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
-        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
-        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+        Applications that use the Google Maps API also use other location APIs provided by Google such the Places, Directions, Geoocoding APIs. These APIs are used in this applications as well.
+        You can jump directly into them but you can also read about them in summary below.
+        \n\n
+        \t\t&#8226;\t <b>Places:</b> The places API allows for the retrieval of information about places collected by Google. For example, the name, address, phone number, operating hours \n
+        \t\t&#8226;\t Directions: The API allows for developers to provide directions from one place to another in a step by step manner \n
+        \t\t&#8226;\t Geocoding: The Geocoding API allows for developers to turn a set of coordinates into an address \n
     </string>
 
     <array name="info_card_places_api">
         <item>@array/info_card_places_api_0</item>
-        <item>@array/info_card_places_api_1</item>
     </array>
 
     <string-array name="info_card_places_api_0">
         <item>What is the Places API?</item>
-        <item>@string/icpa2</item>
+        <item>@string/icpa1</item>
         <item></item>
     </string-array>
 
-    <string-array name="info_card_places_api_1">
-        <item>Places API Part II</item>
-        <item>@string/icpa2</item>
-        <item></item>
-    </string-array>
+    <string name="icpa1">
+        The Places API allows developers to access information about places on Google. For example, it is possible to access your local bakery\'s phone number and operating hours.
+        \n\tA rating out of 5 stars is also available for certain establishments. These ratings are normally summarized from user ratings. For example, you can make sure the restaurant you are
+        going to is considered highly by its customers. \n\tFurthermore with the use of premium data (for the low low price of some 10000USD) it is also possible to access reviews, compiled
+        ratings by users.
+        \n\n
+    </string>
 
     <string name="icpa2">
-        Google マップは世界で最も広く使用されているオンライン地図サービスで、200 万を超えるサイトとアプリに導入されています。Google Maps API を使用することで、Google マップと同じ使い慣れたサービスをユーザーに提供できます。
-        \n
-        \t\t&#8226;\t Google Maps API には、Google Earth の世界各地を撮影した高解像度の鳥瞰写真も含まれています。\n
-        \t\t&#8226;\t 世界 120 以上の都市を 45 度の角度から見ることができる航空写真にもアクセスしていただけるため、ユーザーは特定地域のデータを独特な視点から探索できます。 \n
-        \t\t&#8226;\t スマートフォンは、ユーザーの消費と情報共有に新しい形をもたらしています。そのため、モバイル ユーザー ベースのサービス提供がこれまで以上に重要となっています。\n
+        To see what the Places API is capable of you can use the features provided in this application:
+        \n\n
+        \t\t&#8226;\t Places By Type: It is possible to search for places by one of the 40+ types prescribed by Google. Three of the examples provided are `Restaurants`, `Electronics` and `ATMs` \n
+        \t\t&#8226;\t Places By Keyword: You can search for place(s) by keyword, the keyword can be anything related to the place name, address and type \n
+        \t\t&#8226;\t Places By Ratings: Places can be displayed based on ratings. However, many places may not have any ratings. \n
     </string>
 
     <array name="info_card_directions_api">
@@ -80,14 +70,125 @@
 
     <string-array name="info_card_directions_api_0">
         <item>What is the Directions API?</item>
-        <item>@string/icma0</item>
+        <item>@string/icda1</item>
         <item></item>
     </string-array>
 
+    <string name="icda1">
+        The directions API can give users detailed directions from a starting location to a destination. The resulting directions contain a series of points, for example, instructions on which
+        direction to take at various intersections. The directions API allows for the user to define modes of transport:
+        \n\n
+        \t\t&#8226;\t Driving: The directions results will provide driving directions using the road network \n
+        \t\t&#8226;\t Walking: Directions via Pedestrian paths and sidewalks \n
+        \t\t&#8226;\t Bicycling: Directions via bicycle paths and preferred streets (where available) \n
+        \t\t&#8226;\t Transit: Directions via public transport routes \n
+    </string>
+
     <string-array name="info_card_directions_api_1">
-        <item>Directions API Part II</item>
-        <item>@string/icma1</item>
+        <item>Waypoints</item>
+        <item>@string/icda2</item>
         <item></item>
     </string-array>
+
+    <string name="icda2">
+        Waypoints allow the user to specify locations to pass through when directions are being calculated. Waypoints work best when the query involved travelling across long distances. \n\tFor example,
+        if you are searching for the best route to get grom Sapporo to Tokyo while passing through Sendai and Nagano, you can do so with waypoints. \n\tThe directions API uses the Travelling Salesman
+        to resolve the shortest path. (You can look up the Travelling Salesman under the NP-hard problems).
+    </string>
+
+    <array name="info_card_markers">
+        <item>@array/info_card_markers_0</item>
+        <item>@array/info_card_markers_1</item>
+    </array>
+
+    <string-array name="info_card_markers_0">
+        <item>What are Markers?</item>
+        <item>@string/icm0</item>
+        <item></item>
+    </string-array>
+
+    <string name="icm0">
+        Markers are essentially the Google Maps version of thumbnails tacked onto a real map. They allows various locations to be marked and for information about said places to be provided.
+        Markers can be pressed on to show the title of the marker which is normally the name of the place or the address of the location that the marker in above.
+        \n\t\t&#8226;\tThe first option, `Add Random Markers` puts random markers across the visible region of the map to give you an idea of what defaults markers in Google Maps look like.
+        \n\t\t&#8226;\tThe second option shows the ability of developers to set the markers to images other than the default
+    </string>
+
+    <string-array name="info_card_markers_1">
+        <item>Map Clustering</item>
+        <item>@string/icm1</item>
+        <item></item>
+    </string-array>
+
+    <string name="icm1">
+        Markers can be clustered into groups. As long as there are any markers on the screen, you can select the `Map Clustering` option under `Markers` to cluster them. Zoom out to see the clustering if
+        no change is apparent. \n\tThis feature becomes relevant when the users zooms out from a map. When markers are not clustered, when a user zooms out, markers will be so close together
+        the one will not be differentiable from the other, turning into area dense with markers into a coagulated mess.\n\t Clusters will allow these markers to be grouped together and showing the number of markers
+        that have been grouped. Also, double clicking the marker will zoom to a level that allows the markers in the group to be properly visible.
+    </string>
+
+    <array name="info_card_shapes">
+        <item>@array/info_card_shapes_0</item>
+    </array>
+
+    <string-array name="info_card_shapes_0">
+        <item>Shapes and Polylines</item>
+        <item>@string/icm0</item>
+        <item></item>
+    </string-array>
+
+    <string name="ics0">
+        It is possible to draw shapes on the map. The shapes include shapes and lines. Lines are useful for features such as displaying routes between locations returned by the Directions API.
+        Shapes on the other hand are used to draw sections over the map which can come in the form of polygons or circles.\n\t Shapes can be filled with colors (that can be transparent) that differ
+        from the stroke colors.
+    </string>
+
+    <array name="info_card_ground_overlay">
+        <item>@array/info_card_ground_overlay_0</item>
+    </array>
+
+    <string-array name="info_card_ground_overlay_0">
+        <item>Ground Overlay</item>
+        <item>@string/icgo0</item>
+        <item></item>
+    </string-array>
+
+    <string name="icgo0">
+        The ground overlay allows the developer to overlay an image onto the map. When images are overlaid onto a map without using ground overlays, when the user changes the orientation of the map by
+        actions such as tilting, the image will not match that orientation.\n\t Press the `Add Ground Overlay` item inside the `Ground Overlay` group to see this in action. You can then remove the overlay by
+        selecting `Clear All`. Compare how this image behaves to how a marker behaves on the map.
+    </string>
+
+    <array name="info_card_tile_overlay">
+        <item>@array/info_card_tile_overlay_0</item>
+    </array>
+
+    <string-array name="info_card_tile_overlay_0">
+        <item>Tile Overlay</item>
+        <item>@string/icto0</item>
+        <item></item>
+    </string-array>
+
+    <string name="icto0">
+        The tile overlay allows a very large image to be placed into the map. The map provided by Google Maps works in a tile system. Only data from tiles that are visible or are imminently about to become visible
+         are loaded.\n\t Therefore, to overlay an image that spans across a very large area, the overlying image must be cut up into tiles and those pieces must be set over the correct tiles as the map
+        loads relevant areas.\n\tAn example of an overlaid image that might spread across a very large area is a Heatmap. To see this in action, selected the `Heatmap` option.
+    </string>
+
+    <array name="info_card_autocomplete">
+        <item>@array/info_card_autocomplete_0</item>
+    </array>
+
+    <string-array name="info_card_autocomplete_0">
+        <item>What is Autocomplete?</item>
+        <item>@string/ica0</item>
+        <item></item>
+    </string-array>
+
+    <string name="ica0">
+        The Autocomplete option allows you to search for places by name and addresses dynamically. Possible matches will appear below the Autosearch text box as you type. Selecting an option will place
+        a marker at the location of the place. You can touch the marker title to see details of the place.
+    </string>
+
 
 </resources>

@@ -9,16 +9,33 @@
         <item>Markers, Add Random Markers, Customized Markers, Map Clustering, Clear All</item>
         <!-- 5 -->
         <item>Shapes, Polylines, Polyshapes, Clear All</item>
-        <item>Ground Overlays</item>
-        <item>Tile Overlays, Heatmaps, Clear All</item>
+        <item>Ground Overlays, Target Circle, Kakunin Logo, Clear All</item>
+        <item>Tile Overlays, Heatmaps, Other Tile Providers, Clear All</item>
         <item>!Places API</item>
         <item>Places By Type, Clothing, Electronics, ATMs</item>
         <!-- 10 -->
         <item>*Places By Keyword</item>
         <item>Places Ratings, Restaurants By Stars, Restaurants By Stars (Premium)</item>
         <item>!Directions API</item>
-        <item>*Set transit mode</item>
+        <item>*Set travel mode</item>
         <item>Get directions, Normal, With Waypoints</item>
         <!-- 15 -->
+        <item>!Street View API, Select location</item>
+        <!--<item>!External APIs, KML: World Borders, Clear All</item>-->
+    </string-array>
+
+    <string-array name="map_types">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <!-- new drawer array -->
+    <string-array name="drawer_seperators">
+        <item>menu_map_api_seperator</item>
+        <item>menu_places_api_seperator</item>
+        <item>menu_streetview_api_seperator</item>
+        <item>menu_directions_api_seperator</item>
     </string-array>
 </resources>

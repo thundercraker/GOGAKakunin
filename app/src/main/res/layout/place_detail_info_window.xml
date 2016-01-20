@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#80000000"
-            android:id="@+id/imageLoadProgressBarFrame"
+            android:id="@+id/gdiw_progress_frame"
             android:gravity="center">
 
             <ProgressBar
@@ -35,7 +35,7 @@
                 android:progress="0"
                 android:max="100"
                 android:layout_gravity="center"
-                android:id="@+id/imageLoadProgressBar" />
+                android:id="@+id/gdiw_progress_bar" />
         </LinearLayout>
 
     </RelativeLayout>
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Large Text"
-            android:id="@+id/pdiw_name"
+            android:id="@+id/gdiw_name"
             android:layout_margin="10dp" />
 
         <TextView
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Medium Text"
-            android:id="@+id/pdiw_detail"
+            android:id="@+id/gdiw_detail"
             android:layout_margin="10dp" />
 
     </LinearLayout>

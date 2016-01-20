@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/gogahuddle.iml" filepath="$PROJECT_DIR$/gogahuddle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yumamateriallistview/yumamateriallistview.iml" filepath="$PROJECT_DIR$/yumamateriallistview/yumamateriallistview.iml" />
     </modules>
   </component>
 </project>

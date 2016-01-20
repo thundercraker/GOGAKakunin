@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:weightSum="1"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05">
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/light_marker_1"
+            android:id="@+id/ddl_direction_icon"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:maxWidth="56dp"
+            android:text="3.3 km"
+            android:id="@+id/ddl_distance"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Much shorter instruction testing string"
+        android:layout_weight="0.9"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:overScrollMode="never"
+        android:id="@+id/ddl_main_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/light_streetview"
+            android:scaleType="fitCenter"
+            android:id="@+id/dd_streetview"/>
+    </LinearLayout>
+
+
+</LinearLayout>

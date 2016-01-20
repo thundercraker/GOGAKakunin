@@ -19,7 +19,7 @@
             android:id="@+id/imageView"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/goga_logo"
+            android:src="@drawable/kakunin_logo"
             android:layout_margin="10dp" />
     </RelativeLayout>
 

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@drawable/gradient_fade_to_solid_black"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/home_action_bar"
+        android:theme="@style/CustomToolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#00000000">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Demo Title of this screen"
+                android:textColor="#FFF"
+                android:background="#00000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:id="@+id/home_title"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <com.google.android.gms.maps.StreetViewPanoramaView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gdiw_streetview_image"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/detailFrame"
+            android:layout_weight="0.46">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/gdiw_name"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/gdiw_detail"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Call"
+            android:id="@+id/gdiw_call"
+            android:layout_weight="0.04">
+
+        </Button>
+    </LinearLayout>
+
+
+
+    <!--<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/flipperFrame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <fragment
+                android:name="com.google.android.gms.maps.StreetViewPanoramaFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gdiw_streetview_fragment"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#80000000"
+                android:id="@+id/gdiw_progress_frame"
+                android:gravity="center">
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:progress="0"
+                    android:max="100"
+                    android:layout_gravity="center"
+                    android:id="@+id/gdiw_progress_bar" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/detailFrame"
+            android:layout_weight="0.46">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/gdiw_name"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/gdiw_detail"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Call"
+            android:id="@+id/gdiw_call"
+            android:layout_weight="0.04">
+
+        </Button>
+
+    </LinearLayout>-->
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ee000000"
+    android:id="@+id/ddl_layout"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/ddl_length_time"
+        android:text="11 m (2.4km)"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="From Shibuya 2 chome 15563-34"
+        android:layout_below="@id/ddl_length_time"
+        android:id="@+id/ddl_from_detail"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="To Meguro 3 chome 21312-34"
+        android:id="@+id/ddl_to_detail"
+        android:layout_below="@id/ddl_from_detail"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ListView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ddl_to_detail"
+        android:id="@+id/ddl_directions_list">
+    </ListView>
+</RelativeLayout>

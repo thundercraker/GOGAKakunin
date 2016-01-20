@@ -2,11 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/shadowd">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#EE005500">
+    android:background="#EE000000">
 
     <TextView
         android:id="@+id/drawer_list_item_text"
@@ -14,29 +10,24 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
         android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="16dp"
-        android:paddingTop="15dp"
-        android:paddingBottom="15dp"
+        android:paddingLeft="72dp"
         android:textColor="#fff"
-        android:textSize="9pt"
+        android:textSize="14sp"
         android:text="Drawer Group List Item"
         android:background="?android:attr/activatedBackgroundIndicator"
         android:minHeight="?android:attr/listPreferredItemHeightSmall"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/dlc_icon"
-        android:layout_toEndOf="@+id/dlc_icon" />
+        android:layout_alignParentLeft="true"/>
 
-        <ImageView
-            android:layout_width="7dp"
-            android:layout_height="7dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="10dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:background="#ddffffff"
-            android:id="@+id/dlc_icon" />
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="#ddffffff"
+        android:id="@+id/dlc_icon" />
 
 
-    </RelativeLayout>
 </RelativeLayout>

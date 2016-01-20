@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/dtfb_profile_image"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text=""
+        android:id="@+id/dtfb_name"
+        android:layout_marginLeft="16dp"
+        android:layout_alignTop="@+id/dtfb_profile_image"
+        android:layout_toRightOf="@+id/dtfb_profile_image"
+        android:layout_toEndOf="@+id/dtfb_profile_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text=""
+        android:id="@+id/dtfb_user_sub"
+        android:layout_below="@+id/dtfb_name"
+        android:layout_alignLeft="@+id/dtfb_name"
+        android:layout_alignStart="@+id/dtfb_name" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Photo Map"
+        android:id="@+id/dtfb_photomap"
+        android:layout_marginRight="16dp"
+        android:layout_alignBottom="@+id/dtfb_profile_image"
+        android:layout_alignLeft="@+id/dtfb_user_sub"
+        android:layout_alignStart="@+id/dtfb_user_sub"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dtfb_hider"
+        android:elevation="12dp"
+        android:background="#333"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Loading Info..."
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</RelativeLayout>

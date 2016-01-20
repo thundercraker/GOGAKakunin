@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="AAK">AIzaSyDQX0GpkocsqGO2aA95ijxaZKgFNqrRvG8</string>
     <string name="WAK">AIzaSyCwZ2Bfg_ZBkfRC2-6HsCoXD5YD7XQdxM4</string>
-    <string name="AAK">AIzaSyAaJ5qyyeeMJKItOVxfBWcNrX95PE-O1qk</string>
     <string name="FID">403345926522796</string>
 </resources>

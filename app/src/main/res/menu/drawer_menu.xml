@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_store_locator" android:title="GogaCafe Store Locator" android:icon="@drawable/light_store_location" />
+    <item android:id="@+id/menu_map_api_seperator" android:title="Maps API" android:icon="@drawable/light_places"/>
+    <item android:id="@+id/menu_map_type" android:title="Map Types" android:icon="@drawable/light_map_type"/>
+    <item android:id="@+id/menu_my_location" android:title="My Location" android:icon="@drawable/light_compass"/>
+    <item android:id="@+id/menu_geocoding" android:title="Geocode Location" android:icon="@drawable/light_geocode" />
+    <item android:id="@+id/menu_markers" android:title="Map Markers" android:icon="@drawable/light_marker_1">
+        <menu>
+            <item android:id="@+id/menu_add_random_markers" android:title="Add Random Markers" android:icon="@drawable/light_marker_1" />
+            <item android:id="@+id/menu_customize_markers" android:title="Customize Markers" android:icon="@drawable/light_marker_2" />
+            <item android:id="@+id/menu_clustering_markers" android:title="Markers Clustering" android:icon="@drawable/light_cluster" />
+            <item android:id="@+id/menu_clear_markers" android:title="Clear Markers" android:icon="@drawable/light_remove" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_shapes" android:title="Map Shapes" android:icon="@drawable/light_shape">
+        <menu>
+            <item android:id="@+id/menu_add_polylines" android:title="Add Polyline" android:icon="@drawable/light_line" />
+            <item android:id="@+id/menu_add_polyshapes" android:title="Add Polyshapes" android:icon="@drawable/light_shape_pentagon" />
+            <item android:id="@+id/menu_clear_shapes" android:title="Clear Shapes" android:icon="@drawable/light_remove" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_ground_overlays" android:title="Ground Overlays" android:icon="@drawable/light_overlay">
+        <menu>
+            <item android:id="@+id/menu_go_target" android:title="Overlay Target Circle" android:icon="@drawable/light_target" />
+            <item android:id="@+id/menu_go_kakunin" android:title="Overlay Kakunin Logo" android:icon="@drawable/light_target" />
+            <item android:id="@+id/menu_clear_go" android:title="Clear Ground Overlays" android:icon="@drawable/light_remove" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_tile_overlays" android:title="Tile Overlays" android:icon="@drawable/light_layer">
+        <menu>
+            <item android:id="@+id/menu_add_heatmap" android:title="Add Heatmap Overlay" android:icon="@drawable/light_heatmap" />
+            <item android:id="@+id/menu_add_providers" android:title="Try Tile Providers" android:icon="@drawable/light_tiles" />
+            <item android:id="@+id/menu_clear_to" android:title="Clear Tile Overlays" android:icon="@drawable/light_remove" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/menu_places_api_seperator" android:title="Places API" android:icon="@drawable/light_places"/>
+    <item android:id="@+id/menu_autocomplete" android:title="Autocomplete" android:icon="@drawable/light_search_auto"/>
+    <item android:id="@+id/menu_places_by_type" android:title="Places By Type" android:icon="@drawable/light_marker_2">
+        <menu>
+            <item android:id="@+id/menu_places_clothing" android:title="Find Clothing stores" android:icon="@drawable/light_clothes" />
+            <item android:id="@+id/menu_places_electronics" android:title="Find Electronics stores" android:icon="@drawable/light_electronics" />
+            <item android:id="@+id/menu_places_ATM" android:title="Find ATMs" android:icon="@drawable/light_atm" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_places_by_keyword" android:title="Places By Keyword" android:icon="@drawable/light_search_auto"/>
+    <item android:id="@+id/menu_clear_places" android:title="Clear Place Markers" android:icon="@drawable/light_remove" />
+
+    <item android:id="@+id/menu_streetview_api_seperator" android:title="StreetView API" android:icon="@drawable/light_streetview" />
+    <item android:id="@+id/menu_sv_select" android:title="Select Location" android:icon="@drawable/light_streetview" />
+
+    <item android:id="@+id/menu_directions_api_seperator" android:title="Directions API" android:icon="@drawable/light_directions" />
+    <item android:id="@+id/menu_travel_mode" android:title="Select Travel Mode" android:icon="@drawable/light_train" />
+    <item android:id="@+id/menu_get_directions" android:title="Get Directions" android:icon="@drawable/light_directions" />
+</menu>
